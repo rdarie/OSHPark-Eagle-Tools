@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.7.0">
+<layerstackup name="OSH Park 2 Oz Thin" type="Standard Stackup" symetrical="yes" display_unit="mic" roughness_model="0" surface_roughness="0.001mm" surface_huray_noduleradius="0.0005mm" surface_huray_surfaceratio="1" allow_instack_material_edit="yes" core_color="#FF626262" prepreg_color="#FFB1B1B1" dielectric_color="#FF9E9E9E">
+ <layerdef type="Signal" id="{a040e036-cc8b-47e7-b0e4-f8b386eafd46}" layer="1" name="Top" locally_modified_material="yes">
+ <material name="User Defined" thickness="0.07mm" weight="2oz" process="Electro Deposited" source="User"/>
+</layerdef>
+ <layerdef type="Core" id="{12a734de-118f-47fe-b7df-1a38bc0b7047}" layer="1" name="Dielectric-1" locally_modified_material="yes">
+ <material name="User Defined" construction="" thickness="0.762mm" resin="50%" dielectric_constant_1g="4.5" dissipation_factor_1g="0.02" glass_transition_temperature="125degC" source="User"/>
+</layerdef>
+ <layerdef type="Signal" id="{32f9c1bd-e210-4587-a4a1-907a5b30ca7e}" layer="16" name="Bottom" locally_modified_material="yes">
+ <material name="User Defined" thickness="0.07mm" weight="2oz" process="Electro Deposited" source="User"/>
+</layerdef>
+ <viadef name="Thru 1:16" startlayer="1" stoplayer="16" complement="no"/>
+ </layerstackup>
+ </eagle>
